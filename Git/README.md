@@ -1,12 +1,27 @@
 # Git  
-git 版本控制系统  
+
+定义：git 分布式版本控制系统  
+
+## 安装  
+
+1. Linux  
+
+    `sudo apt install git #Debian/Ubuntu`  
+    `sudo yum install git #RedHat`  
+
+2. Windows  
+
+    从[Git官网](https://git-scm.com/install/windows)直接下载安装程序，然后按默认选项安装即可。
+
+## 配置  
+
+     git config --global user.name "Your Name"    
+     git config --global user.email "email@example.com"
+
 git仓库  
 local respository 运行在本地的git仓库，remote respository 运行在服务器的git仓库  
 GitHub 免费提供仓库的网站  
 GitHub仓库分为公开仓库和私有仓库  
-
-准备工作  
-1. 安装git、VS Code、AI Agent  
 
 git init 把文件夹使用git管理起来，变成一个仓库，使用git第一步  
 .git 初始化后出现，存储一切与git有关的数据，删除.git文件就取消git对文件夹的管理  
