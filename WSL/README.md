@@ -1,4 +1,7 @@
 # WSL
+
+WSL（Windows Subsystem for Linux）适用于Linux的Windows子系统，基于Hyper-V技术，运行多个带有GNU/Linux镜像的虚拟机。
+
 ## 一、安装
 
 开启虚拟化/wsl --install --web-download(提高国内网络下载速度)/重启(或许需要)/填写用户名和密码  
