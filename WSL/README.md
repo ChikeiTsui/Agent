@@ -36,7 +36,7 @@ WSL（Windows Subsystem for Linux）适用于Linux的Windows子系统，基于Hy
 `node -v` #查看nodejs版本  
 
 1. 安装python  
-``python3 --version/python --version/sudo apt update/sudo apt install python is python3/python --version``  
+``python3 --version/python --version/sudo apt update/sudo apt install python-is-python3/python --version``  
 python --version 返回版本号则无需后面命令  
 
 2. 安装node  
