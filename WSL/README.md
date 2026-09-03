@@ -12,7 +12,7 @@ WSL（Windows Subsystem for Linux）适用于Linux的Windows子系统，基于Hy
 |------------|------------------|
 |wsl -l -o   |列出所有在线可安装的linux发行版(list online)  |
 |wsl -l      |列出该电脑上安装过的所有linux虚拟机|
-|wsl --install kali-linux --location D:ws\kali-linux|安装指定发行版到指定目录，kali-linux指定发行版，--location指定安装目录|
+|wsl --install kali-linux --location D:\wsl\kali-linux|安装指定发行版到指定目录，kali-linux指定发行版，--location指定安装目录|
 |wsl --install Ubuntu --name Ubuntu2|Ubuntu指定发行版安装实例，--name指定实例名|
 
 |    启动      |       |
