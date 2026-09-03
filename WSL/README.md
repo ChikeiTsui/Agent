@@ -4,12 +4,13 @@ WSL（Windows Subsystem for Linux）适用于Linux的Windows子系统，基于Hy
 
 ## 一、安装
 
-开启虚拟化/wsl --install --web-download(提高国内网络下载速度)/重启(或许需要)/填写用户名和密码  
+开启虚拟化/wsl --install --web-download(提高国内网络下载速度)/重启(或许需要)/wsl --update(把wsl本体功能升级到最新)/填写用户名和密码  
 
 ## 二、基础使用
 
 |   命令     |       作用        |
 |------------|------------------|
+|wsl --update|把wsl本体功能升级到最新|
 |wsl -l -o   |列出所有在线可安装的linux发行版(list online)  |
 |wsl -l      |列出该电脑上安装过的所有linux虚拟机|
 |wsl --install kali-linux --location D:\wsl\kali-linux|安装指定发行版到指定目录，kali-linux指定发行版，--location指定安装目录|
