@@ -25,7 +25,7 @@
 
 ## 文件添加到版本库  
 
-    1. touch READ.md # 创建文件  
+    1. touch README.md # 创建文件  
     2. git add READ.md # 把文件添加到仓库  
     3. git commit -m "commit instruction" # -m 输入本次提交的说明  
 
