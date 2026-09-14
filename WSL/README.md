@@ -10,7 +10,11 @@ WSL（Windows Subsystem for Linux）适用于Linux的Windows子系统，基于Hy
 ``wsl -l -o``   #列出所有在线可安装的linux发行版(list online)  
 ``wsl --install Ubuntu --location D:\wsl\Ubuntu``  #安装指定发行版到指定目录，Ubuntu指定发行版，--location指定安装目录  
 3. 配置网络  
-WSL Settings/网络/①网络模式选择Mirrored②打开已启用自动代理
+WSL Settings/网络/①网络模式选择Mirrored②打开已启用自动代理  
+4. 部署Windows Terminal  
+`winget install Microsoft.WindowsTerminal` #安装Windows Terminal  
+`设置/启动/默认终端应用程序/Windows Terminal` #设置为默认终端  
+`Windows Terminal/设置/打开 JSON 文件/加入"historySize": 50000` #增大历史输出缓冲区用于回滚查看更多内容  
 
 
 ## 二、基础使用
