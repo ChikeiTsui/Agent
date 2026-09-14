@@ -4,7 +4,14 @@ WSL（Windows Subsystem for Linux）适用于Linux的Windows子系统，基于Hy
 
 ## 一、安装
 
+1. 安装WSL  
 开启虚拟化/wsl --install --web-download(提高国内网络下载速度)/重启(或许需要)/wsl --update(把wsl本体功能升级到最新)/填写用户名和密码  
+2. 安装实例  
+``wsl -l -o``   #列出所有在线可安装的linux发行版(list online)  
+``wsl --install Ubuntu --location D:\wsl\Ubuntu``  #安装指定发行版到指定目录，Ubuntu指定发行版，--location指定安装目录  
+3. 配置网络  
+WSL Settings/网络/①网络模式选择Mirrored②打开已启用自动代理
+
 
 ## 二、基础使用
 
