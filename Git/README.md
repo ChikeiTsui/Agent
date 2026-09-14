@@ -2,7 +2,9 @@
 
 定义：分布式版本控制系统  
 
-## 安装  
+## 部署  
+
+### 安装  
 
 1. Linux  
     `sudo apt install git # Debian/Ubuntu`  
@@ -10,30 +12,30 @@
 2. Windows  
     从[Git官网](https://git-scm.com/install/windows)直接下载安装程序，然后按默认选项安装即可。
 
-## 配置  
+### 配置  
 
 1. 用户名  
      `git config --global user.name "Your Name"`    
 2. 邮箱       
      `git config --global user.email "email@example.com"`
 
-## 创建版本库  
+### 创建版本库  
 
-    1. mkdir learngit  
-    2. cd learngit  
-    3. git init # 把当前目录变成Git可以管理的仓库，并生成.git隐藏文件，.git文件用来跟踪管理版本库  
+1. `mkdir learngit`  
+2. `cd learngit`  
+3. `git init` # 把当前目录变成Git可以管理的仓库，并生成.git隐藏文件，.git文件用来跟踪管理版本库  
 
 ## 文件添加到版本库  
 
-    1. touch README.md # 创建文件  
-    2. git add READ.md # 把文件添加到仓库  
-    3. git commit -m "commit instruction" # -m 输入本次提交的说明  
+ 1. `touch README.md` # 创建文件  
+ 2. `git add READ.md` # 把文件添加到仓库  
+ 3. `git commit -m "commit instruction"` # -m 输入本次提交的说明  
 
 ## 版本回退  
 
-    1. git log #显示从最近到最远的提交日志  
-    2. git reflog #查看命令历史  
-    3. git reset --hard commit_id #回退到上个版本的已提交状态，--soft会回退到上个版本的未提交状态，--mixed会回退到上个版本已添加但未提交的状态  
+ 1. git log #显示从最近到最远的提交日志  
+ 2. git reflog #查看命令历史  
+ 3. git reset --hard commit_id #回退到上个版本的已提交状态，--soft会回退到上个版本的未提交状态，--mixed会回退到上个版本已添加但未提交的状态  
 
 ## 工作区和暂存区  
 
